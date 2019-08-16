@@ -1,0 +1,26 @@
+{
+	"scripts": {
+		"dev": "node server.js",
+		"build": "next build",
+		"start": "NODE_ENV=production node server.js"
+	},
+	"dependencies": {
+		"apollo-boost": "^0.4.4",
+		"apollo-cache-inmemory": "^1.6.3",
+		"bootstrap": "^4.3.1",
+		"express": "^4.17.1",
+		"graphql": "^14.4.2",
+		"graphql-tag": "^2.10.1",
+		"js-cookie": "^2.2.1",
+		"jwt-decode": "^2.2.0",
+		"next": "^9.0.3",
+		"next-apollo": "^3.0.3",
+		"next-with-apollo": "^4.2.0",
+		"react": "^16.9.0",
+		"react-apollo": "^3.0.0",
+		"react-dom": "^16.9.0",
+		"reactstrap": "^8.0.1",
+		"recompose": "^0.30.0",
+		"strapi-sdk-javascript": "^0.3.1"
+	}
+}
